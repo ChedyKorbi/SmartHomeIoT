@@ -5,8 +5,8 @@
 #include <FirebaseESP8266.h> // Library for Firebase communication
 
 // WiFi credentials for connecting to the local WiFi network
-const char* ssid = "TORKHA";      // WiFi SSID
-const char* password = "98302402"; // WiFi password
+const char* ssid = "WIFI_SSID";      // WiFi SSID
+const char* password = "WIFI_PASSWORD"; // WiFi password
 
 // MQTT server configuration
 const char* mqttServer = "192.168.122.220";  // IP address of MQTT broker
